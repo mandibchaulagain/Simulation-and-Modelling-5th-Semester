@@ -34,8 +34,7 @@ int main() {
 		}
 		cout<<"n is: "<<n<<" Rn+1: "<<randomVarArray[i]<<" P is: "<<p<<"n is "<<acceptOrNot<<endl;
 	}
-	int* maxElement = max_element(Result, Result + lengthofArray);
-	cout<<"Result: n = "<<*maxElement<<endl;
+	cout<<"Result: n = "<<n<<endl;//was supposed to only return the new n
     return 0;
 }
 
